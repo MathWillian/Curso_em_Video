@@ -1,0 +1,5 @@
+nome = str(input('Digite o nome completo: '))
+lista = nome.split()
+print('O primeiro nome é: {}'.format(lista[0]))
+lista.reverse()
+print('O último nome é: {}'.format(lista[0]))
